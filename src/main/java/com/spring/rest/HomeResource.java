@@ -11,7 +11,7 @@ public class HomeResource {
 	}
 	@GetMapping("/api/home")
     public String homeInit() {
-        System.out.println("home controller");
+        System.out.println("home controller..home");
         return "Welcome to HOME page of your application.. Alhumdulilah";
     }
 }
